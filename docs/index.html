@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Flashcards — Review</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <h1 class="title">Flashcards</h1>
+      <div class="controls">
+        <div id="categories" class="categories"></div>
+        <div class="actions">
+          <button id="restartBtn" class="btn">Restart</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="panel stats-panel">
+      <div class="stats">
+        <div><strong>Correct</strong>: <span id="statCorrect">0</span></div>
+        <div><strong>Wrong</strong>: <span id="statWrong">0</span></div>
+        <div><strong>Left</strong>: <span id="statLeft">0</span></div>
+        <div><strong>Total</strong>: <span id="statTotal">0</span></div>
+      </div>
+      <div class="progress-wrap">
+        <div id="progressBar" class="progress"></div>
+      </div>
+    </section>
+
+    <section class="card-area">
+      <div id="card" class="card">
+        <div class="card-face card-front" id="cardFront"></div>
+        <div class="card-face card-back" id="cardBack"></div>
+      </div>
+    </section>
+
+    <section class="panel actions-panel">
+      <button id="markWrong" class="btn bad">Wrong</button>
+      <button id="skipBtn" class="btn">Skip</button>
+      <button id="markCorrect" class="btn good">Correct</button>
+    </section>
+
+    <div id="doneScreen" class="done-screen hidden">
+      <div class="done-card">
+        <h2>Done</h2>
+        <p id="doneMsg"></p>
+        <button id="doneRestart" class="btn">Restart</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Data files (add new category files here and then add to cards.js spread) -->
+  <script src="data/vocab.js"></script>
+  <script src="data/history.js"></script>
+  <script src="data/science.js"></script>
+  <script src="data/economics.js"></script>
+  <script src="data/novels.js"></script>
+
+  <!-- Merge data and initialize -->
+  <script src="js/cards.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
