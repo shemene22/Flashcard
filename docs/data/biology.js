@@ -1,0 +1,21 @@
+const BIOLOGY_CARDS = [
+  { cat: "Biology", q: "What are the phases of mitosis (ProMAT)?", a: "Prophase, Metaphase, Anaphase, Telophase." },
+  { cat: "Biology", q: "What are the stages of embryo formation (GaFeZyCE)?", a: "Gametes, Fertilization, Zygote, Cleavage, Embryo." },
+  { cat: "Biology", q: "What are the 4 macromolecules (CPLN)?", a: "Carbohydrates, Proteins, Lipids, Nucleic Acids." },
+  { cat: "Biology", q: "What does CelluCAW Photo-GO stand for?", a: "Cellular Respiration, Carbon Dioxide, ATP/Energy, Water, Photosynthesis, Glucose, Oxygen." },
+  { cat: "Biology", q: "What does Anatomy study?", a: "Inner organs." },
+  { cat: "Biology", q: "What does Entomology study?", a: "Insects." },
+  { cat: "Biology", q: "What does Biochemistry study?", a: "Chemical patterns of animals." },
+  { cat: "Biology", q: "What does Ecology study?", a: "Interactions of living things with each other and environment." },
+  { cat: "Biology", q: "What does Embryology study?", a: "Development from zygote to birth." },
+  { cat: "Biology", q: "What does Genetics study?", a: "Heredity." },
+  { cat: "Biology", q: "What does Mycology study?", a: "Fungi." },
+  { cat: "Biology", q: "What does Herpetology study?", a: "Reptiles and amphibians." },
+  { cat: "Biology", q: "What does Histology study?", a: "Plant and animal tissues." },
+  { cat: "Biology", q: "What does Morphology study?", a: "Phenotype or appearance." },
+  { cat: "Biology", q: "What does Ornithology study?", a: "Birds." },
+  { cat: "Biology", q: "What does Parasitology study?", a: "Parasites." },
+  { cat: "Biology", q: "What does Paleontology study?", a: "Fossils of animals and plants." },
+  { cat: "Biology", q: "What does Physiology study?", a: "Functions of tissues, organs, and systems." },
+  { cat: "Biology", q: "What does Taxonomy study?", a: "Classification of living organisms." }
+];
